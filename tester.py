@@ -6,6 +6,6 @@ from pandas import DataFrame
 df = DataFrame({'a':[1, 3, 4], 'b': [6, 4, 3]})
 print(df.head())
 
-from null_eval import assess_NA
+import null_eval
 
 print(assess_NA(df))
