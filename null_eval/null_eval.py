@@ -8,3 +8,8 @@ def assess_NA(data):
   df_NA = pd.concat([total, percent], axis=1, keys=['Number of NA', 'Percent NA'])
   df_NA = df_NA[(df_NA.T !=0).any()]
   return df_NA
+
+
+if __name__ == "__main__":
+    data = assess_NA(data) 
+    print(data, assess_NA(data))
