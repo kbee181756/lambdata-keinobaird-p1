@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from null_eval import assess_NA
+from null_eval.null_eval import assess_NA
 
 from pandas import DataFrame
 
