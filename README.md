@@ -2,12 +2,10 @@
 
 ## Installation 
 
-TO DO 
-TO DO 
-TO DO
+pip install -i https://test.pypi.org/simple/ null-assessor
 
-# Other information
 
-More information 
-More information 
-More information
+## Usage
+from null_eval.null_eval import assess_NA
+
+
