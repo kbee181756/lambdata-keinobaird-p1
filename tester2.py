@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from null_evalor.null_eval import null_check
+from null_evalor.null_check import null_check
 
 from pandas import DataFrame
 

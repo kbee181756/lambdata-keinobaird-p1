@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="null-assessor",  # the name that you will install via pip
-    version="1.4",
+    version="1.5",
     author="Keino Baird",
     author_email="keinobaird@gmail.com",
     description="Assess nulls in a dataframe",
