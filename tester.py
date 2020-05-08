@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from null_evalor.null_eval import assess_NA
+from null_evalor.null_eval import null_check
 
 from pandas import DataFrame
 
@@ -23,3 +24,6 @@ df_3 = DataFrame({'a': [3, np.nan, 4, 6, np.nan, np.nan, 3],
 
 print(df_3.head())
 print(assess_NA(df_3))
+
+print(df_3.head())
+print(null_check(df_3))
